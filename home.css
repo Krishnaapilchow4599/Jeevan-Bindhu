@@ -1,0 +1,101 @@
+body, h1, h2, h3, p, ul
+{
+    margin: 0;
+    padding: 0;
+}
+body 
+{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f4f4f4;
+}
+.container 
+{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    background-color: white;
+    opacity: 0.75;
+    color: black;
+    padding-top: 0px;
+    
+}
+.container:hover
+{
+    color: red;
+}
+header 
+{
+    background:#00000067;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+
+header a 
+{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul 
+{
+    list-style: none;
+    padding: 0;
+}
+header li 
+{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header nav 
+{
+    float: right;
+    margin-top: 10px;
+}
+.hero {
+    
+    color: #0000;
+    padding: 80px 0;
+    text-align: center;
+}
+.hero h2 
+{
+    margin-bottom: 40px;
+}
+.hero p 
+{
+    font-size: 20px;
+}
+.btn 
+{
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+footer 
+{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+.features {
+    padding: 20px 0;
+}
+
+.features .feature {
+    margin: 30px 0;
+}
+
+.features h3 {
+    margin-bottom: 10px;
+}
